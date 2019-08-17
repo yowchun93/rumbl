@@ -16,4 +16,8 @@ defmodule RumblWeb.Auth do
     # for security reasons
     |> configure_session(renew: true)
   end
+
+  def logout(conn) do
+    configure_session(conn, drop: true)
+  end
 end
