@@ -22,6 +22,7 @@ defmodule RumblWeb do
       use Phoenix.Controller, namespace: RumblWeb
       import Plug.Conn
       import RumblWeb.Router.Helpers
+      alias RumblWeb.Router.Helpers, as: Routes
       import RumblWeb.Gettext
     end
   end
