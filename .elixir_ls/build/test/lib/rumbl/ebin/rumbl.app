@@ -24,7 +24,9 @@
                         'Elixir.RumblWeb.UsersController',
                         'Elixir.RumblWeb.UsersView',
                         'Elixir.RumblWeb.VideoController',
-                        'Elixir.RumblWeb.VideoView']},
+                        'Elixir.RumblWeb.VideoView',
+                        'Elixir.RumblWeb.WatchController',
+                        'Elixir.RumblWeb.WatchView']},
               {registered,[]},
               {vsn,"0.0.1"},
               {mod,{'Elixir.Rumbl.Application',[]}}]}.
